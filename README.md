@@ -1,1 +1,2 @@
-readme UwU
+# Binary Trees 
+C Binary Trees project
