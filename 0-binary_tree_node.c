@@ -1,7 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-    printf("Hello , World !");
-    return (0);
+    
+    binary_tree_t *tmp = malloc(sizeof(binary_tree_t));
+
+    if (tmp = NULL)
+    {
+        return (NULL);
+    }
+    
+    tmp->parent = parent;
+    tmp->n = value;
+    tmp->left = NULL;
+    tmp->right = NULL;
+
+    return (tmp);
+
 }
